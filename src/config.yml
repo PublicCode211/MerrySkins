@@ -1,0 +1,44 @@
+##########################################
+#                CONFIG                  #
+##########################################
+
+#The prefix in almost every msg!
+prefix: '&cMerry&rSkins &8» '
+
+#You can configure the main command and their aliases!
+commands:
+  mainCommand:
+  - "MerrySkins"
+  - "merrySkins
+  subCommands:
+    update:
+    - "update" # The first line will be the "main" subcommand
+    - "up"     # The rest will be aliases
+    change:
+    - "change" # The first line will be the "main" subcommand
+    - "cg"     # The rest will be aliases
+    toggle:
+    - "toggle" # The first line will be the "main" subcommand
+    - "tgg"    # The rest will be aliases
+
+#Custom messages, by now not every message can have a PlaceHolder, soon!
+messages:
+  noPermissions: "&cYou do not have the permissions for this command!"
+  hatChange:
+    skinChanged: "&aYour hat is changed!"
+    noHatFound: "&cThe hat %hat% does not exist!"
+    errorInChangeSkin: "&cError changing your skin!"
+    noAccountSkinError: "&cYou only can wear the default skin :c."
+    alreadyUsingTheSameHat: "&cYou can not set the same hat you have!"
+  updateSkin:
+    skinUpdated: "&aYour skin is updated!"
+    noAccountSkinError: "&cSkin not found for &9%player% &capplying default Skin!"
+    updatingError: "&cError updating your skin!"
+  toggleSkin:
+    enabledSkin: "&aNow your &c&lMerry&r&lSkin &ais enabled!"
+    disabledSkin: "&aNow your &c&lMerry&r&lSkin &ais disabled!"
+  commands:
+    commandNotFound: "&cCommand not found."
+    helpHeader: "&7===================[ &c&lMerry&r&lSkins &7]==================="
+    helpFooter: "&7===================[ &c&lMerry&r&lSkins &7]==================="
+  
